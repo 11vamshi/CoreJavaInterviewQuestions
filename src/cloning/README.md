@@ -9,7 +9,8 @@ https://dzone.com/articles/shallow-and-deep-java-cloning
 
 The program is used to test default cloning behavior of clone() method of any Cloneable class which is shallow cloning
 
-if u dont implement cloneable Interface u cant clone
+if u dont implement cloneable(marker) Interface u cant clone, remember clonable is marker it does not have clone, which is why 
+we dont override clone rather we call super.clone() 
 
 Object.clone() is the method which creates a clone for you, whose access-level is protected, and that is the reason client 
 cannot create a clone of our object himself by calling clone, client class the clone() method of our obj and which in turn calls

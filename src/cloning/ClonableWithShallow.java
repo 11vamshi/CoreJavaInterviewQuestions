@@ -65,8 +65,6 @@ class ClonableWithShallow implements Cloneable{
 		
 	}
 	
-	
-	
 }
 
 
