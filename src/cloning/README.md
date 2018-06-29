@@ -5,7 +5,7 @@ https://programmingmitra.blogspot.com/2017/01/Java-cloning-copy-constructor-vers
 https://dzone.com/articles/shallow-and-deep-java-cloning
 
 
-**conclusion is worst though**
+**conclusion is worst though in that dzone article**
 
 The program is used to test default cloning behavior of clone() method of any Cloneable class which is shallow cloning
 
